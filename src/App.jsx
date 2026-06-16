@@ -1,5 +1,6 @@
 import { useMemo, useState } from 'react'
 import TopBar from './components/TopBar'
+import DesktopNote from './components/DesktopNote'
 import Guide from './components/Guide'
 import SectionRail from './components/SectionRail'
 import SoAMatrix from './components/SoAMatrix'
@@ -195,6 +196,7 @@ export default function App() {
 
   return (
     <div className="flex h-screen flex-col overflow-hidden">
+      <DesktopNote />
       <TopBar view={view} setView={setView} onExport={onExport} onSubmit={onSubmit} handoff={handoff} risk={risk} pendingCount={pendingCount} exportReady={handoff === 'signed'} />
       <Guide
         open={guideOpen} onShow={() => setGuideOpen(true)} onDismiss={() => setGuideOpen(false)}
