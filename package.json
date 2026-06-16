@@ -1,0 +1,22 @@
+{
+  "name": "kitt-v2",
+  "private": true,
+  "version": "2.0.0",
+  "type": "module",
+  "description": "KITT v2 — AI-assisted, audit-safe clinical protocol design. Amendment-risk + provenance prototype.",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --port 4173"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.1.7",
+    "@vitejs/plugin-react": "^4.3.4",
+    "tailwindcss": "^4.1.7",
+    "vite": "^6.3.5"
+  }
+}

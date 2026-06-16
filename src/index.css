@@ -1,0 +1,87 @@
+@import 'tailwindcss';
+
+@theme {
+  --font-sans: 'Inter', ui-sans-serif, system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, monospace;
+
+  /* ── Surfaces ─────────────────────────────────────────────
+     Muted, cool, clinical. Neutrals carry the UI; accents are
+     desaturated and used sparingly (per healthcare-UI research). */
+  --color-page: #f4f6f8;
+  --color-ink: #2a3646;       /* top bar — softened deep slate, not near-black */
+  --color-ink-soft: #3d4b5e;
+
+  /* ── Provenance sources (muted) ── */
+  --color-ai: #8479bd;        /* periwinkle violet — AI */
+  --color-ai-tint: #f0eef9;
+  --color-human: #5b6776;     /* muted slate — human */
+  --color-human-tint: #eef1f4;
+  --color-library: #54a298;   /* muted teal — library */
+  --color-library-tint: #e8f3f1;
+  --color-site: #6f8fc0;      /* muted blue — site / coordinator */
+  --color-site-tint: #edf2fa;
+
+  /* ── Brand / CTA (muted teal, slightly deeper) ── */
+  --color-brand: #3f8c84;
+  --color-brand-tint: #e6f2ef;
+
+  /* ── Risk semantics (muted) ── */
+  --color-risk-high: #cf6f74; /* clay rose */
+  --color-risk-high-tint: #fbeef0;
+  --color-risk-med: #cf9c46;  /* ochre amber */
+  --color-risk-med-tint: #f9f2e2;
+  --color-risk-low: #6cae8c;  /* sage */
+  --color-risk-low-tint: #ebf4ef;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--color-page);
+  color: #20303f;
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* KITT scanner sweep — a nod to the name; muted coral, not hot red */
+@keyframes scan {
+  0% { transform: translateX(-120%); }
+  100% { transform: translateX(120%); }
+}
+.scanner {
+  position: relative;
+  overflow: hidden;
+}
+.scanner::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, transparent, rgba(207, 111, 116, 0.45), transparent);
+  width: 40%;
+  animation: scan 2.8s ease-in-out infinite;
+}
+
+@keyframes pulse-ai {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(132, 121, 189, 0.4); }
+  50% { box-shadow: 0 0 0 4px rgba(132, 121, 189, 0); }
+}
+.ai-pending {
+  animation: pulse-ai 2.2s ease-in-out infinite;
+}
+
+@keyframes rise {
+  from { opacity: 0; transform: translateY(6px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.rise { animation: rise 0.28s ease-out both; }
+
+*::-webkit-scrollbar { width: 9px; height: 9px; }
+*::-webkit-scrollbar-thumb { background: #cdd6e0; border-radius: 9px; border: 2px solid transparent; background-clip: padding-box; }
+*::-webkit-scrollbar-thumb:hover { background: #9fb0c0; background-clip: padding-box; }
+
+.tnum { font-variant-numeric: tabular-nums; }
