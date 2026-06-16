@@ -2,6 +2,8 @@
 
 > A desktop prototype that reframes KITT from *"design protocols faster"* to *"design protocols you won't have to amend — and prove what the AI did."*
 
+**▶ Live demo: [kitt-eight.vercel.app](https://kitt-eight.vercel.app)** · best viewed on desktop
+
 This is an enhanced rebuild of the [original KITT case study](https://www.davinces.design/work/kitt). The original established a strong thesis — **AI-assisted speed that stays audit-safe**. This version sharpens the *value* (amendment prevention) and makes the *governance* (per-field provenance) tangible and interactive.
 
 📄 **[Read the full case study →](docs/CASE_STUDY.md)** — market research, problem statement, personas, user flows, information architecture, and UI design decisions, with all design artifacts.
