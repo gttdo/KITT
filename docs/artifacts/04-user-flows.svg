@@ -1,0 +1,126 @@
+<svg width="960" height="440" viewBox="0 0 960 440" xmlns="http://www.w3.org/2000/svg" font-family="'Inter', -apple-system, system-ui, sans-serif">
+  <defs>
+    <marker id="fa" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M2 1L8 5L2 9" fill="none" stroke="#94a3b8" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+    <marker id="fr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M2 1L8 5L2 9" fill="none" stroke="#cf9c46" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+  <rect x="0.5" y="0.5" width="959" height="439" rx="14" fill="#ffffff" stroke="#e2e8f0"/>
+  <text x="30" y="42" font-size="21" font-weight="600" fill="#20303f">User flows — design to sign-off, with the logic</text>
+  <text x="30" y="65" font-size="13.5" fill="#5b6b7b">Two task flows joined at the handoff · amber = decision · ↺ = loop until resolved</text>
+
+  <!-- DESIGNER lane label -->
+  <circle cx="34" cy="94" r="4.5" fill="#3f8c84"/>
+  <text x="46" y="98" font-size="12" font-weight="600" fill="#5b6b7b" letter-spacing="0.3">DESIGNER FLOW · Maya</text>
+
+  <!-- designer cards -->
+  <g>
+    <rect x="30" y="112" width="138" height="92" rx="10" fill="#ffffff" stroke="#e2e8f0"/>
+    <rect x="40" y="122" width="16" height="16" rx="4" fill="#eef2f6"/><text x="48" y="134" text-anchor="middle" font-size="10" font-weight="600" fill="#94a3b8">1</text>
+    <text x="40" y="162" font-size="11.5" font-weight="600" fill="#20303f">Open SoA</text>
+    <text x="40" y="180" font-size="9.5" fill="#5b6b7b">study loaded</text>
+  </g>
+  <g>
+    <rect x="182" y="112" width="138" height="92" rx="10" fill="#ffffff" stroke="#e2e8f0"/>
+    <rect x="192" y="122" width="16" height="16" rx="4" fill="#eef2f6"/><text x="200" y="134" text-anchor="middle" font-size="10" font-weight="600" fill="#94a3b8">2</text>
+    <text x="192" y="162" font-size="11.5" font-weight="600" fill="#20303f">KITT drafts</text>
+    <text x="192" y="180" font-size="9.5" fill="#5b6b7b">extraction</text>
+  </g>
+  <g>
+    <rect x="334" y="112" width="138" height="92" rx="10" fill="#ffffff" stroke="#e2e8f0"/>
+    <rect x="344" y="122" width="16" height="16" rx="4" fill="#eef2f6"/><text x="352" y="134" text-anchor="middle" font-size="10" font-weight="600" fill="#94a3b8">3</text>
+    <text x="344" y="162" font-size="11.5" font-weight="600" fill="#20303f">Review cells</text>
+    <text x="344" y="180" font-size="9.5" fill="#5b6b7b">provenance</text>
+  </g>
+  <g>
+    <rect x="486" y="112" width="138" height="92" rx="10" fill="#f9f2e2" stroke="#cf9c46" stroke-width="1.5"/>
+    <text x="496" y="136" font-size="14" font-weight="600" fill="#cf9c46">◇</text>
+    <text x="496" y="162" font-size="11.5" font-weight="600" fill="#20303f">Resolve flags</text>
+    <text x="496" y="180" font-size="9.5" fill="#cf9c46">↺ apply fix · $↓</text>
+  </g>
+  <g>
+    <rect x="638" y="112" width="138" height="92" rx="10" fill="#ffffff" stroke="#e2e8f0"/>
+    <rect x="648" y="122" width="16" height="16" rx="4" fill="#eef2f6"/><text x="656" y="134" text-anchor="middle" font-size="10" font-weight="600" fill="#94a3b8">5</text>
+    <text x="648" y="162" font-size="11.5" font-weight="600" fill="#20303f">Reconcile</text>
+    <text x="648" y="180" font-size="9.5" fill="#5b6b7b">inputs + sugg.</text>
+  </g>
+  <g>
+    <rect x="790" y="112" width="138" height="92" rx="10" fill="#ffffff" stroke="#3f8c84" stroke-width="1.5"/>
+    <rect x="800" y="122" width="16" height="16" rx="4" fill="#e6f2ef"/><text x="808" y="134" text-anchor="middle" font-size="10" font-weight="600" fill="#3f8c84">6</text>
+    <text x="800" y="162" font-size="11.5" font-weight="600" fill="#20303f">Submit</text>
+    <text x="800" y="180" font-size="9.5" fill="#5b6b7b">for review</text>
+  </g>
+
+  <!-- designer chevrons -->
+  <path d="M172 154 L178 159 L172 164" fill="none" stroke="#cbd5e1" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M324 154 L330 159 L324 164" fill="none" stroke="#cbd5e1" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M476 154 L482 159 L476 164" fill="none" stroke="#cbd5e1" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M628 154 L634 159 L628 164" fill="none" stroke="#cbd5e1" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M780 154 L786 159 L780 164" fill="none" stroke="#cbd5e1" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- handoff -->
+  <path d="M859 204 L859 290" fill="none" stroke="#94a3b8" stroke-width="1.6" marker-end="url(#fa)"/>
+  <text x="867" y="250" font-size="10" font-weight="600" fill="#94a3b8">submit</text>
+
+  <!-- seam banner -->
+  <rect x="330" y="222" width="300" height="24" rx="12" fill="#e6f2ef"/>
+  <text x="480" y="238" text-anchor="middle" font-size="11" font-weight="600" fill="#3f8c84">HANDOFF — provenance travels with it</text>
+
+  <!-- return loop -->
+  <path d="M403 290 L403 264 L648 264 L648 182 L626 182" fill="none" stroke="#cf9c46" stroke-width="1.4" stroke-dasharray="4 3" marker-end="url(#fr)"/>
+  <rect x="455" y="256" width="150" height="15" rx="3" fill="#ffffff"/>
+  <text x="530" y="267" text-anchor="middle" font-size="9.5" font-weight="600" fill="#cf9c46">no · return for revision</text>
+
+  <!-- REVIEWER lane label -->
+  <circle cx="34" cy="276" r="4.5" fill="#6cae8c"/>
+  <text x="46" y="280" font-size="12" font-weight="600" fill="#5b6b7b" letter-spacing="0.3">REVIEWER FLOW · Dr. Reyes</text>
+
+  <!-- reviewer cards (R→L) -->
+  <g>
+    <rect x="790" y="290" width="138" height="92" rx="10" fill="#ffffff" stroke="#3f8c84" stroke-width="1.5"/>
+    <rect x="800" y="300" width="16" height="16" rx="4" fill="#e6f2ef"/><text x="808" y="312" text-anchor="middle" font-size="10" font-weight="600" fill="#3f8c84">1</text>
+    <text x="800" y="340" font-size="11.5" font-weight="600" fill="#20303f">Open queue</text>
+    <text x="800" y="358" font-size="9.5" fill="#5b6b7b">N to sign off</text>
+  </g>
+  <g>
+    <rect x="638" y="290" width="138" height="92" rx="10" fill="#ffffff" stroke="#e2e8f0"/>
+    <rect x="648" y="300" width="16" height="16" rx="4" fill="#eef2f6"/><text x="656" y="312" text-anchor="middle" font-size="10" font-weight="600" fill="#94a3b8">2</text>
+    <text x="648" y="340" font-size="11.5" font-weight="600" fill="#20303f">Audit acts</text>
+    <text x="648" y="358" font-size="9.5" fill="#5b6b7b">extr·rec·auto</text>
+  </g>
+  <g>
+    <rect x="486" y="290" width="138" height="92" rx="10" fill="#ffffff" stroke="#e2e8f0"/>
+    <rect x="496" y="300" width="16" height="16" rx="4" fill="#eef2f6"/><text x="504" y="312" text-anchor="middle" font-size="10" font-weight="600" fill="#94a3b8">3</text>
+    <text x="496" y="340" font-size="11.5" font-weight="600" fill="#20303f">Check M11</text>
+    <text x="496" y="358" font-size="9.5" fill="#5b6b7b">USDM-mapped</text>
+  </g>
+  <g>
+    <rect x="334" y="290" width="138" height="92" rx="10" fill="#f9f2e2" stroke="#cf9c46" stroke-width="1.5"/>
+    <text x="344" y="314" font-size="14" font-weight="600" fill="#cf9c46">◇</text>
+    <text x="344" y="340" font-size="11.5" font-weight="600" fill="#20303f">Compliant?</text>
+    <text x="344" y="358" font-size="9.5" fill="#cf9c46">auditable?</text>
+  </g>
+  <g>
+    <rect x="182" y="290" width="138" height="92" rx="10" fill="#ffffff" stroke="#e2e8f0"/>
+    <rect x="192" y="300" width="16" height="16" rx="4" fill="#eef2f6"/><text x="200" y="312" text-anchor="middle" font-size="10" font-weight="600" fill="#94a3b8">5</text>
+    <text x="192" y="340" font-size="11.5" font-weight="600" fill="#20303f">Sign off</text>
+    <text x="192" y="358" font-size="9.5" fill="#5b6b7b">sections</text>
+  </g>
+  <g>
+    <rect x="30" y="290" width="138" height="92" rx="10" fill="#ffffff" stroke="#6cae8c" stroke-width="1.5"/>
+    <rect x="40" y="300" width="16" height="16" rx="4" fill="#ebf4ef"/><text x="48" y="312" text-anchor="middle" font-size="10" font-weight="600" fill="#6cae8c">6</text>
+    <text x="40" y="340" font-size="11.5" font-weight="600" fill="#20303f">Export</text>
+    <text x="40" y="358" font-size="9.5" fill="#5b6b7b">USDM → EDC</text>
+  </g>
+
+  <!-- reviewer chevrons (left) + yes -->
+  <path d="M780 332 L774 337 L780 342" fill="none" stroke="#cbd5e1" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M628 332 L622 337 L628 342" fill="none" stroke="#cbd5e1" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M476 332 L470 337 L476 342" fill="none" stroke="#cbd5e1" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M324 332 L318 337 L324 342" fill="none" stroke="#6cae8c" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="320" y="326" text-anchor="middle" font-size="9" font-weight="600" fill="#6cae8c">yes</text>
+
+  <text x="30" y="424" font-size="11" fill="#94a3b8">Cell-level micro-flow inside “Review cells”: inspect provenance → Accept · Edit · Override-as-human · Reject.</text>
+</svg>

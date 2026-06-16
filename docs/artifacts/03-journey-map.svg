@@ -1,0 +1,154 @@
+<svg width="960" height="470" viewBox="0 0 960 470" xmlns="http://www.w3.org/2000/svg" font-family="'Inter', -apple-system, system-ui, sans-serif">
+  <defs>
+    <marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M2 1L8 5L2 9" fill="none" stroke="#94a3b8" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+  <rect x="0.5" y="0.5" width="959" height="469" rx="14" fill="#ffffff" stroke="#e2e8f0"/>
+  <text x="30" y="44" font-size="22" font-weight="600" fill="#20303f">Two users, one protocol — design to sign-off</text>
+  <text x="30" y="68" font-size="14" fill="#5b6b7b">How KITT v2 reconciles the designer's need for speed with the reviewer's need for auditability</text>
+
+  <!-- DESIGNER lane label -->
+  <circle cx="34" cy="100" r="4.5" fill="#3f8c84"/>
+  <text x="46" y="104" font-size="12" font-weight="600" fill="#5b6b7b" letter-spacing="0.3">DESIGNER · Maya Okafor — Clinical Study Designer</text>
+
+  <!-- ========== DESIGNER CARDS (L→R) ========== -->
+  <!-- D1 -->
+  <g>
+    <rect x="30" y="118" width="167" height="98" rx="11" fill="#ffffff" stroke="#e2e8f0"/>
+    <rect x="30" y="118" width="167" height="5" rx="2.5" fill="#cf9c46"/>
+    <rect x="44" y="134" width="20" height="20" rx="5" fill="#f9f2e2"/><text x="54" y="148" text-anchor="middle" font-size="11" font-weight="600" fill="#cf9c46">1</text>
+    <text x="72" y="149" font-size="13.5" font-weight="600" fill="#20303f">Kickoff &amp; scope</text>
+    <line x1="44" y1="162" x2="183" y2="162" stroke="#eef2f6"/>
+    <text x="44" y="178" font-size="8.5" font-weight="600" fill="#8479bd" letter-spacing="0.5">KITT</text>
+    <text x="44" y="192" font-size="10.5" fill="#5b6b7b">Drafts SoA from M11 +</text>
+    <text x="44" y="205" font-size="10.5" fill="#5b6b7b">indication library</text>
+  </g>
+  <!-- D2 -->
+  <g>
+    <rect x="213" y="118" width="167" height="98" rx="11" fill="#ffffff" stroke="#e2e8f0"/>
+    <rect x="213" y="118" width="167" height="5" rx="2.5" fill="#cf9c46"/>
+    <rect x="227" y="134" width="20" height="20" rx="5" fill="#f9f2e2"/><text x="237" y="148" text-anchor="middle" font-size="11" font-weight="600" fill="#cf9c46">2</text>
+    <text x="255" y="149" font-size="13.5" font-weight="600" fill="#20303f">Review the draft</text>
+    <line x1="227" y1="162" x2="366" y2="162" stroke="#eef2f6"/>
+    <text x="227" y="178" font-size="8.5" font-weight="600" fill="#8479bd" letter-spacing="0.5">KITT</text>
+    <text x="227" y="192" font-size="10.5" fill="#5b6b7b">Per-cell source &amp;</text>
+    <text x="227" y="205" font-size="10.5" fill="#5b6b7b">confidence shown</text>
+  </g>
+  <!-- D3 -->
+  <g>
+    <rect x="396" y="118" width="167" height="98" rx="11" fill="#ffffff" stroke="#e2e8f0"/>
+    <rect x="396" y="118" width="167" height="5" rx="2.5" fill="#6cae8c"/>
+    <rect x="410" y="134" width="20" height="20" rx="5" fill="#ebf4ef"/><text x="420" y="148" text-anchor="middle" font-size="11" font-weight="600" fill="#6cae8c">3</text>
+    <text x="438" y="149" font-size="13.5" font-weight="600" fill="#20303f">Design out risk</text>
+    <line x1="410" y1="162" x2="549" y2="162" stroke="#eef2f6"/>
+    <text x="410" y="178" font-size="8.5" font-weight="600" fill="#8479bd" letter-spacing="0.5">KITT</text>
+    <text x="410" y="192" font-size="10.5" fill="#5b6b7b">Flags $ exposure —</text>
+    <text x="410" y="205" font-size="10.5" fill="#5b6b7b">risk drops live</text>
+  </g>
+  <!-- D4 -->
+  <g>
+    <rect x="579" y="118" width="167" height="98" rx="11" fill="#ffffff" stroke="#e2e8f0"/>
+    <rect x="579" y="118" width="167" height="5" rx="2.5" fill="#3f8c84"/>
+    <rect x="593" y="134" width="20" height="20" rx="5" fill="#e6f2ef"/><text x="603" y="148" text-anchor="middle" font-size="11" font-weight="600" fill="#3f8c84">4</text>
+    <text x="621" y="149" font-size="13.5" font-weight="600" fill="#20303f">Reconcile inputs</text>
+    <line x1="593" y1="162" x2="732" y2="162" stroke="#eef2f6"/>
+    <text x="593" y="178" font-size="8.5" font-weight="600" fill="#8479bd" letter-spacing="0.5">KITT</text>
+    <text x="593" y="192" font-size="10.5" fill="#5b6b7b">Folds in endpoints</text>
+    <text x="593" y="205" font-size="10.5" fill="#5b6b7b">&amp; site burden</text>
+  </g>
+  <!-- D5 -->
+  <g>
+    <rect x="762" y="118" width="167" height="98" rx="11" fill="#ffffff" stroke="#3f8c84" stroke-width="1.5"/>
+    <rect x="762" y="118" width="167" height="5" rx="2.5" fill="#6cae8c"/>
+    <rect x="776" y="134" width="20" height="20" rx="5" fill="#ebf4ef"/><text x="786" y="148" text-anchor="middle" font-size="11" font-weight="600" fill="#6cae8c">5</text>
+    <text x="804" y="149" font-size="13.5" font-weight="600" fill="#20303f">Submit for review</text>
+    <line x1="776" y1="162" x2="915" y2="162" stroke="#eef2f6"/>
+    <text x="776" y="178" font-size="8.5" font-weight="600" fill="#8479bd" letter-spacing="0.5">KITT</text>
+    <text x="776" y="192" font-size="10.5" fill="#5b6b7b">Provenance record</text>
+    <text x="776" y="205" font-size="10.5" fill="#5b6b7b">travels with it</text>
+  </g>
+
+  <!-- designer chevrons -->
+  <path d="M201 162 L207 167 L201 172" fill="none" stroke="#cbd5e1" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M384 162 L390 167 L384 172" fill="none" stroke="#cbd5e1" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M567 162 L573 167 L567 172" fill="none" stroke="#cbd5e1" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M750 162 L756 167 L750 172" fill="none" stroke="#cbd5e1" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- handoff -->
+  <path d="M845 216 L845 312" fill="none" stroke="#94a3b8" stroke-width="1.6" marker-end="url(#ah)"/>
+  <text x="853" y="266" font-size="10" font-weight="600" fill="#94a3b8">submit</text>
+
+  <!-- seam banner -->
+  <rect x="268" y="250" width="424" height="26" rx="13" fill="#e6f2ef"/>
+  <text x="480" y="267" text-anchor="middle" font-size="11.5" font-weight="600" fill="#3f8c84">HANDOFF — the provenance record travels with the protocol</text>
+
+  <!-- REVIEWER lane label -->
+  <circle cx="34" cy="296" r="4.5" fill="#6cae8c"/>
+  <text x="46" y="300" font-size="12" font-weight="600" fill="#5b6b7b" letter-spacing="0.3">REVIEWER · Dr. Elena Reyes — Regulatory &amp; Quality</text>
+
+  <!-- ========== REVIEWER CARDS (R→L: 1 at right) ========== -->
+  <!-- R1 x762 -->
+  <g>
+    <rect x="762" y="312" width="167" height="98" rx="11" fill="#ffffff" stroke="#3f8c84" stroke-width="1.5"/>
+    <rect x="762" y="312" width="167" height="5" rx="2.5" fill="#cf9c46"/>
+    <rect x="776" y="328" width="20" height="20" rx="5" fill="#f9f2e2"/><text x="786" y="342" text-anchor="middle" font-size="11" font-weight="600" fill="#cf9c46">1</text>
+    <text x="804" y="343" font-size="13.5" font-weight="600" fill="#20303f">Receive submission</text>
+    <line x1="776" y1="356" x2="915" y2="356" stroke="#eef2f6"/>
+    <text x="776" y="372" font-size="8.5" font-weight="600" fill="#8479bd" letter-spacing="0.5">KITT</text>
+    <text x="776" y="386" font-size="10.5" fill="#5b6b7b">Queue of AI acts to</text>
+    <text x="776" y="399" font-size="10.5" fill="#5b6b7b">audit, each labeled</text>
+  </g>
+  <!-- R2 x579 -->
+  <g>
+    <rect x="579" y="312" width="167" height="98" rx="11" fill="#ffffff" stroke="#e2e8f0"/>
+    <rect x="579" y="312" width="167" height="5" rx="2.5" fill="#3f8c84"/>
+    <rect x="593" y="328" width="20" height="20" rx="5" fill="#e6f2ef"/><text x="603" y="342" text-anchor="middle" font-size="11" font-weight="600" fill="#3f8c84">2</text>
+    <text x="621" y="343" font-size="13.5" font-weight="600" fill="#20303f">Audit AI acts</text>
+    <line x1="593" y1="356" x2="732" y2="356" stroke="#eef2f6"/>
+    <text x="593" y="372" font-size="8.5" font-weight="600" fill="#8479bd" letter-spacing="0.5">KITT</text>
+    <text x="593" y="386" font-size="10.5" fill="#5b6b7b">Per-cell lineage;</text>
+    <text x="593" y="399" font-size="10.5" fill="#5b6b7b">verify autonomous</text>
+  </g>
+  <!-- R3 x396 -->
+  <g>
+    <rect x="396" y="312" width="167" height="98" rx="11" fill="#ffffff" stroke="#e2e8f0"/>
+    <rect x="396" y="312" width="167" height="5" rx="2.5" fill="#3f8c84"/>
+    <rect x="410" y="328" width="20" height="20" rx="5" fill="#e6f2ef"/><text x="420" y="342" text-anchor="middle" font-size="11" font-weight="600" fill="#3f8c84">3</text>
+    <text x="438" y="343" font-size="13.5" font-weight="600" fill="#20303f">Check M11 / USDM</text>
+    <line x1="410" y1="356" x2="549" y2="356" stroke="#eef2f6"/>
+    <text x="410" y="372" font-size="8.5" font-weight="600" fill="#8479bd" letter-spacing="0.5">KITT</text>
+    <text x="410" y="386" font-size="10.5" fill="#5b6b7b">Section badges +</text>
+    <text x="410" y="399" font-size="10.5" fill="#5b6b7b">USDM-mapped</text>
+  </g>
+  <!-- R4 x213 -->
+  <g>
+    <rect x="213" y="312" width="167" height="98" rx="11" fill="#ffffff" stroke="#e2e8f0"/>
+    <rect x="213" y="312" width="167" height="5" rx="2.5" fill="#6cae8c"/>
+    <rect x="227" y="328" width="20" height="20" rx="5" fill="#ebf4ef"/><text x="237" y="342" text-anchor="middle" font-size="11" font-weight="600" fill="#6cae8c">4</text>
+    <text x="255" y="343" font-size="13.5" font-weight="600" fill="#20303f">Sign off / return</text>
+    <line x1="227" y1="356" x2="366" y2="356" stroke="#eef2f6"/>
+    <text x="227" y="372" font-size="8.5" font-weight="600" fill="#8479bd" letter-spacing="0.5">KITT</text>
+    <text x="227" y="386" font-size="10.5" fill="#5b6b7b">Per-section sign-off</text>
+    <text x="227" y="399" font-size="10.5" fill="#5b6b7b">+ Part 11 trail</text>
+  </g>
+  <!-- R5 x30 -->
+  <g>
+    <rect x="30" y="312" width="167" height="98" rx="11" fill="#ffffff" stroke="#e2e8f0"/>
+    <rect x="30" y="312" width="167" height="5" rx="2.5" fill="#6cae8c"/>
+    <rect x="44" y="328" width="20" height="20" rx="5" fill="#ebf4ef"/><text x="54" y="342" text-anchor="middle" font-size="11" font-weight="600" fill="#6cae8c">5</text>
+    <text x="72" y="343" font-size="13.5" font-weight="600" fill="#20303f">Release to build</text>
+    <line x1="44" y1="356" x2="183" y2="356" stroke="#eef2f6"/>
+    <text x="44" y="372" font-size="8.5" font-weight="600" fill="#8479bd" letter-spacing="0.5">KITT</text>
+    <text x="44" y="386" font-size="10.5" fill="#5b6b7b">Export USDM →</text>
+    <text x="44" y="399" font-size="10.5" fill="#5b6b7b">EDC-ready</text>
+  </g>
+
+  <!-- reviewer chevrons (left) -->
+  <path d="M756 356 L750 361 L756 366" fill="none" stroke="#cbd5e1" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M573 356 L567 361 L573 366" fill="none" stroke="#cbd5e1" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M390 356 L384 361 L390 366" fill="none" stroke="#cbd5e1" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M207 356 L201 361 L207 366" fill="none" stroke="#cbd5e1" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <text x="30" y="446" font-size="11.5" fill="#94a3b8">Returned protocols loop back to Maya with the reviewer's comments attached — the cycle repeats until sign-off.</text>
+</svg>

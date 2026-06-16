@@ -1,0 +1,46 @@
+<svg width="960" height="600" viewBox="0 0 960 600" xmlns="http://www.w3.org/2000/svg" font-family="'Inter', -apple-system, system-ui, sans-serif">
+  <rect x="0.5" y="0.5" width="959" height="599" rx="14" fill="#ffffff" stroke="#e2e8f0"/>
+  <text x="44" y="48" font-size="22" font-weight="600" fill="#20303f">Competitive positioning — and the gap KITT v2 fills</text>
+  <text x="44" y="74" font-size="14" fill="#5b6b7b">AI clinical protocol / study-design tools, mid-2026</text>
+
+  <!-- white-space quadrant -->
+  <rect x="490" y="120" width="338" height="190" rx="8" fill="#e6f2ef"/>
+  <text x="812" y="146" text-anchor="end" font-size="12.5" font-weight="600" fill="#3f8c84">UNCLAIMED WHITE SPACE</text>
+  <text x="812" y="164" text-anchor="end" font-size="12.5" fill="#3f8c84">audit-safe amendment prevention</text>
+
+  <!-- grid -->
+  <rect x="150" y="120" width="678" height="390" rx="8" fill="none" stroke="#e2e8f0"/>
+  <line x1="490" y1="120" x2="490" y2="510" stroke="#e2e8f0"/>
+  <line x1="150" y1="315" x2="828" y2="315" stroke="#e2e8f0"/>
+
+  <!-- axis labels -->
+  <text x="490" y="544" text-anchor="middle" font-size="13" fill="#5b6b7b">Authoring &amp; build automation  →  Decision quality &amp; amendment-risk reduction</text>
+  <text x="74" y="315" text-anchor="middle" font-size="13" fill="#5b6b7b" transform="rotate(-90 74 315)">Data-level audit  →  Per-decision provenance</text>
+
+  <!-- competitors -->
+  <circle cx="262" cy="392" r="7" fill="#94a3b8"/>
+  <text x="262" y="414" text-anchor="middle" font-size="13" fill="#5b6b7b">Yseop</text>
+
+  <circle cx="312" cy="342" r="7" fill="#94a3b8"/>
+  <text x="326" y="346" font-size="13" fill="#5b6b7b">Veeva + Falcon</text>
+
+  <circle cx="366" cy="292" r="7" fill="#94a3b8"/>
+  <text x="380" y="296" font-size="13" fill="#5b6b7b">Formedix ryze</text>
+
+  <circle cx="452" cy="386" r="7" fill="#94a3b8"/>
+  <text x="452" y="408" text-anchor="middle" font-size="13" fill="#5b6b7b">Medidata Designer</text>
+
+  <circle cx="632" cy="386" r="7" fill="#94a3b8"/>
+  <text x="632" y="408" text-anchor="middle" font-size="13" fill="#5b6b7b">Phesi</text>
+
+  <circle cx="612" cy="288" r="8" fill="#5b6776"/>
+  <text x="628" y="284" font-size="13.5" font-weight="600" fill="#20303f">Faro Health</text>
+  <text x="628" y="300" font-size="11.5" fill="#94a3b8">closest analog</text>
+
+  <!-- KITT v2 -->
+  <circle cx="700" cy="200" r="16" fill="#e6f2ef"/>
+  <circle cx="700" cy="200" r="9" fill="#3f8c84"/>
+  <text x="700" y="178" text-anchor="middle" font-size="15" font-weight="600" fill="#3f8c84">KITT v2</text>
+
+  <text x="44" y="578" font-size="12" fill="#94a3b8">Faro owns data-driven SoA design; the EDC platforms own the build. None own per-decision provenance at design time.</text>
+</svg>

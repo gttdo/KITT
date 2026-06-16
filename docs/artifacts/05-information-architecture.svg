@@ -1,0 +1,43 @@
+<svg width="960" height="446" viewBox="0 0 960 446" xmlns="http://www.w3.org/2000/svg" font-family="'Inter', -apple-system, system-ui, sans-serif">
+  <rect x="0.5" y="0.5" width="959" height="445" rx="14" fill="#ffffff" stroke="#e2e8f0"/>
+  <text x="30" y="44" font-size="21" font-weight="600" fill="#20303f">Information architecture — one workspace</text>
+  <text x="30" y="68" font-size="13.5" fill="#5b6b7b">No page nav · primary nav is the Researcher⇄Reviewer toggle · the right panel responds to view + selection</text>
+
+  <!-- TOP BAR -->
+  <rect x="30" y="86" width="900" height="38" rx="8" fill="#f4f6f8" stroke="#e2e8f0"/>
+  <text x="44" y="103" font-size="9.5" font-weight="600" fill="#94a3b8" letter-spacing="0.5">TOP BAR</text>
+  <text x="44" y="117" font-size="10.5" fill="#5b6b7b">logo · AD-201 breadcrumb · Researcher⇄Reviewer toggle · $ exposure chip · Submit / Return · Export USDM</text>
+
+  <!-- LEFT RAIL -->
+  <rect x="30" y="134" width="220" height="262" rx="8" fill="#f4f6f8" stroke="#e2e8f0"/>
+  <text x="44" y="156" font-size="9.5" font-weight="600" fill="#94a3b8" letter-spacing="0.5">LEFT RAIL</text>
+  <text x="44" y="176" font-size="14" font-weight="600" fill="#20303f">ICH M11 outline</text>
+  <text x="44" y="200" font-size="11" fill="#5b6b7b">· Completion ring</text>
+  <text x="44" y="220" font-size="11" fill="#5b6b7b">· Section status</text>
+  <text x="44" y="240" font-size="11" fill="#5b6b7b">· USDM-mapped badge</text>
+  <text x="44" y="260" font-size="11" fill="#5b6b7b">· % AI-drafted</text>
+  <text x="44" y="382" font-size="10" fill="#94a3b8">document navigation</text>
+
+  <!-- CENTER -->
+  <rect x="262" y="134" width="420" height="262" rx="8" fill="#e6f2ef" stroke="#3f8c84"/>
+  <text x="278" y="156" font-size="9.5" font-weight="600" fill="#3f8c84" letter-spacing="0.5">CENTER — HERO</text>
+  <text x="278" y="176" font-size="14" font-weight="600" fill="#20303f">Schedule of Assessments</text>
+  <text x="278" y="202" font-size="11.5" fill="#5b6b7b">· Visits × Assessments matrix</text>
+  <text x="278" y="223" font-size="11.5" fill="#5b6b7b">· Provenance-coded cells (AI · human · library · site)</text>
+  <text x="278" y="244" font-size="11.5" fill="#5b6b7b">· AI-act badge: extraction · recommendation · autonomous</text>
+  <text x="278" y="265" font-size="11.5" fill="#5b6b7b">· Inline accept / edit / reject; flagged + site cells</text>
+  <text x="278" y="286" font-size="11.5" fill="#5b6b7b">· $ exposure &amp; burden update live</text>
+  <text x="278" y="382" font-size="10" fill="#3f8c84">the primary work surface</text>
+
+  <!-- RIGHT PANEL -->
+  <rect x="694" y="134" width="236" height="262" rx="8" fill="#f4f6f8" stroke="#e2e8f0"/>
+  <text x="708" y="156" font-size="9.5" font-weight="600" fill="#94a3b8" letter-spacing="0.5">RIGHT PANEL — CONTEXTUAL</text>
+  <text x="708" y="176" font-size="14" font-weight="600" fill="#20303f">Decision &amp; audit</text>
+  <text x="708" y="200" font-size="10.5" fill="#5b6b7b">Always · Risk meter ($ + burden)</text>
+  <text x="708" y="224" font-size="10.5" fill="#5b6b7b">Mode A · Risk drivers</text>
+  <text x="708" y="244" font-size="10.5" fill="#5b6b7b">Mode B · Provenance + lineage</text>
+  <text x="708" y="264" font-size="10.5" fill="#5b6b7b">Mode C · Reviewer queue + sign-off</text>
+  <text x="708" y="382" font-size="10" fill="#94a3b8">state-driven: view × selection</text>
+
+  <text x="30" y="426" font-size="11" fill="#94a3b8">Mode A shows when nothing is selected (Researcher) · Mode B when a cell is selected · Mode C in the Reviewer view.</text>
+</svg>

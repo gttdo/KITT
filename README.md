@@ -4,6 +4,8 @@
 
 This is an enhanced rebuild of the [original KITT case study](https://www.davinces.design/work/kitt). The original established a strong thesis — **AI-assisted speed that stays audit-safe**. This version sharpens the *value* (amendment prevention) and makes the *governance* (per-field provenance) tangible and interactive.
 
+📄 **[Read the full case study →](docs/CASE_STUDY.md)** — market research, problem statement, personas, user flows, information architecture, and UI design decisions, with all design artifacts.
+
 ---
 
 ## The research that drove the redesign
