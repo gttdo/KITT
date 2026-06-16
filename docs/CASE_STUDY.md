@@ -6,6 +6,14 @@
 > **Type:** Self-directed rebuild of an earlier concept · desktop · React/Vite/Tailwind
 > **Timebox:** A focused design sprint — research → definition → flows/IA → built prototype
 
+**At a glance**
+
+| | |
+|---|---|
+| **Reframe** | Re-pointed the product from *time saved* to **avoidable amendment dollars**, priced live as you design. |
+| **Insight** | Found the white space no competitor owns — **per-decision, AI-vs-human provenance** at design time. |
+| **Proof** | A clickable end-to-end prototype — design → de-risk → audit → sign-off → export — on the ICH M11 / USDM backbone. |
+
 ---
 
 ## The bet
@@ -25,7 +33,7 @@ The earlier version of KITT had a good instinct (*AI-assisted speed that stays a
 - **It optimized for the wrong number.** "60% faster" is a vanity metric in an industry where a single amendment costs six figures. I re-pointed the product at **avoidable amendment dollars.**
 - **It conflated its users.** It called the primary user a "study coordinator" but described work only a clinical scientist does. I split that into three real roles — and gave each its proper place in the design.
 
-Keeping a flattering story would have been easier. Re-pointing the product at a harder, truer problem is the more senior call, and it's the one I made.
+Keeping the flattering story would have been easier. I re-pointed the product at the harder, truer problem instead.
 
 ---
 
@@ -34,7 +42,7 @@ Keeping a flattering story would have been easier. Re-pointing the product at a 
 I'll spare the literature review. Three findings did the actual work:
 
 1. **Complexity is the amendment engine.** Lean schedules average 2.0 amendments; heavy ones 3.2 ([Tufts CSDD](https://link.springer.com/article/10.1177/2168479016632271)). → The **Schedule of Assessments** had to be the hero object, and complexity had to carry a price tag.
-2. **The protocol became a data object.** ICH M11 (finalized Nov 2025) + CDISC USDM make it machine-readable and EDC-ready ([FDA M11](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/m11-template-clinical-electronic-structured-harmonised-protocol-cesharp)). → Build on that backbone, not a generic doc editor.
+2. **The protocol became a data object.** ICH M11 (finalized Nov 2025) + CDISC USDM make it machine-readable and EDC-ready ([FDA M11](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/m11-template-clinical-electronic-structured-harmonised-protocol-cesharp)). → I built on that backbone instead of a generic doc editor.
 3. **Regulators wrote the rules for AI.** They want to know whether each AI output is *"a recommendation, an extraction, or an autonomous classification"* ([FDA/EMA principles](https://www.appliedclinicaltrialsonline.com/view/fda-ema-align-ten-principles-artificial-intelligence-use-drug-development)). → I adopted that exact vocabulary as a UI primitive.
 
 ### Where the competition isn't
@@ -93,7 +101,7 @@ I kept the IA deliberately flat. There's no page tree; the primary navigation is
 
 ![Information architecture](artifacts/05-information-architecture.svg)
 
-The model hangs on one atom — the **cell** — and its provenance record. The decisions that made it good: `source` gains a 4th value (**Site**) so Sam costs no new screen, and **`act` is a separate axis from `source`** — the move that lets a reviewer answer the regulator's question *per field*.
+The model hangs on one atom — the **cell** — and its provenance record. Two decisions made it work: I gave `source` a 4th value (**Site**) so Sam cost no new screen, and I kept **`act` a separate axis from `source`** — the move that lets a reviewer answer the regulator's question *per field*.
 
 ```
 Cell (Assessment × Visit)
